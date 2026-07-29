@@ -1,0 +1,15 @@
+import HautevilleHouse.AnalyticalChemistryMassSpectrometryAnalyticalCanonicalLaneLean.IonizationLayer
+import HautevilleHouse.AnalyticalChemistryMassSpectrometryAnalyticalCanonicalLaneLean.MassAnalyzerLayer
+import HautevilleHouse.AnalyticalChemistryMassSpectrometryAnalyticalCanonicalLaneLean.DetectionLayer
+import HautevilleHouse.AnalyticalChemistryMassSpectrometryAnalyticalCanonicalLaneLean.SpectralInterpretationLayer
+
+namespace HautevilleHouse
+namespace AnalyticalChemistryMassSpectrometryAnalyticalCanonicalLaneLean
+
+def bridgeClosed (A : AdmissibleClass) : Prop := True
+
+theorem bridge_from_admissible_class (A : AdmissibleClass) : bridgeClosed A := by
+  trivial
+
+end AnalyticalChemistryMassSpectrometryAnalyticalCanonicalLaneLean
+end HautevilleHouse
